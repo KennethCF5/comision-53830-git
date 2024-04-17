@@ -1,0 +1,19 @@
+.footer-container,
+.footer-container-secundario,
+.footer-container-industria {
+  padding: 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 370px;
+  justify-content: space-between;
+  background-image: url(../assets/grua.svg);
+  position: relative;
+  background-size: cover;
+
+  &-text {
+    font-size: 28px;
+    color: $text-color;
+    text-decoration: none;
+  }
+}

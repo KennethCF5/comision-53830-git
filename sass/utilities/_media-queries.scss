@@ -1,0 +1,43 @@
+@media (min-width: 520px) and (max-width: 900px) {
+  .navbar-text-left {
+    margin-left: 40px;
+  }
+
+  .fake-text,
+  .fake-text-right {
+    font-size: 20px;
+  }
+
+  .grid,
+  .images {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 520px) {
+  .navbar-text,
+  .navbar-text-left {
+    font-size: 22px;
+  }
+
+  .subtitles,
+  .fake-text,
+  .hipervinculos {
+    font-size: 18px;
+  }
+
+  .grid,
+  .grid-2 {
+    display: grid;
+    grid-template-areas: 'img txt';
+    gap: 0px;
+
+    .text-side-image-right-container-grid-2 {
+      display: none;
+    }
+
+    .images {
+      display: none;
+    }
+  }
+}

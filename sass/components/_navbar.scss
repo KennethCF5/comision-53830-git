@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 106px;
+  background-color: $background-color;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+
+  &-text,
+  &-text-left {
+    font-size: 28px;
+    color: $text-color;
+    text-decoration: none;
+    margin-right: 80px;
+
+    &-left {
+      margin-right: 80px;
+    }
+  }
+}

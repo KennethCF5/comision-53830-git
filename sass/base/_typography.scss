@@ -1,0 +1,20 @@
+.fake-text,
+.fake-text-right,
+.subtitles,
+.subtitles-right,
+.hipervinculos,
+.hipervinculos-right {
+  font-size: 24px;
+  color: $primary-color;
+  text-decoration: none;
+
+  &-right {
+    color: $primary-color;
+  }
+}
+
+.hipervinculos,
+.hipervinculos-right {
+  color: $secondary-color;
+  text-decoration: underline;
+}
