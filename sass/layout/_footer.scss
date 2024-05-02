@@ -1,16 +1,50 @@
-.footer-container,
-.footer-container-secundario,
-.footer-container-industria {
+.footer-container {
   padding: 0 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  min-height: 370px;
+  min-height: 250px;
   justify-content: space-between;
   background-image: url(../assets/grua.svg);
   position: relative;
   background-size: cover;
 
+  &-text {
+    font-size: 28px;
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+.footer-container-secundario {
+  padding: 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: 150px;
+  min-height: 150px;
+  justify-content: space-around;
+  background-image: url(../assets/planosfooter.svg);
+  position: relative;
+  background-size: cover;
+  &-text {
+    font-size: 28px;
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+.footer-container-industria {
+  padding: 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: 150px;
+  min-height: 100px;
+  justify-content: space-around;
+  background-image: url(../assets/fabricafooter.svg);
+  position: relative;
+  background-size: cover;
   &-text {
     font-size: 28px;
     color: $text-color;

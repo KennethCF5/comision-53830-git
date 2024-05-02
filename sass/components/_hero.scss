@@ -5,6 +5,9 @@
   background-image: url(../assets/casco.svg);
   background-size: cover;
   padding: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
   &-description {
     max-width: 636px;
@@ -16,6 +19,7 @@
     font-size: 18px;
     column-gap: 100px;
     flex-wrap: wrap;
+    max-width: 636px;
   }
 
   &-boxes-container {
